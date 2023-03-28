@@ -5,6 +5,7 @@
    --select-color: #404BBF;
    --main-logo-color: #4D5AE5;
    --footer-white: #F4F4FD;
+   --bg-gradient: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)); 
 }
 
 p,h1,h2,h3,h4,h5,h6 {
@@ -138,7 +139,7 @@ color: var(--main-title-color);
 /* ---------------------------------Hero--------------------------------- */
 .hero {
    background-color: var(--main-title-color);
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+   background-image: var(--bg-gradient), url(../images/hero-bg.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -242,20 +243,17 @@ color: var(--main-title-color);
 margin-bottom: 72px;
 }
 
-/* --------------------------------Our Team-------------------------------- */
+/* -------------------Our Team-------------------- */
 
 .team {
    background-color: var(--footer-white);
    padding-bottom: 120px;
    padding-top: 120px;
 }
-
 .team-list {
 display: flex;
 gap: 24px;
 }
-
-
 .card-content {
 display: flex;
 flex-direction: column;
@@ -271,6 +269,27 @@ justify-content: center;
 align-items: center;
 padding: 0px;
 gap: 24px;
+}
+.member-social-item {
+   width: 40px;
+   height: 40px;
+}
+.member-social-link {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   background-color: #4D5AE5;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.member-social-icon {
+   fill: var(--footer-white);
+}
+
+.member-social-link:is(:hover, :focus){ 
+   background-color: var(--select-color);
 }
 
 
