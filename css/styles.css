@@ -377,6 +377,18 @@ border: 1px solid #8E8F99;
 border-radius: 4px;
 }
 
+.customers-link:is(:hover, :focus) {
+border-color: var(--select-color);
+}
+
+.customers-link:is(:hover, :focus) > .customers-icon{
+   fill: var(--select-color);
+   }
+
+.customers-icon {
+   fill: #8E8F99;
+}
+
 /* ---------------------------Footer--------------------------- */
 
 .footer {
