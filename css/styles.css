@@ -335,6 +335,48 @@ letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
 
+/* -----------------Customers----------------- */
+.customers {
+   padding-top: 120px;
+   padding-bottom: 120px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.customers-title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--main-title-color);
+margin-bottom: 72px;
+}
+
+.customers-wrap {
+
+}
+
+.customers-list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+}
+
+.customers-link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 168px;
+height: 88px;
+
+border: 1px solid #8E8F99;
+border-radius: 4px;
+}
+
 /* ---------------------------Footer--------------------------- */
 
 .footer {
