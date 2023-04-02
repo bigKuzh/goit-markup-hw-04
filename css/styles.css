@@ -56,6 +56,8 @@ body {
 .header {
    background-color: var(--accent-color);
    border-bottom: 1px solid #E7E9FC;
+   max-width: 1440px;
+   margin: 0 auto;
 }
 .main-wrap { 
    display: flex;
@@ -190,6 +192,8 @@ cursor: pointer;
    background-color: var(--accent-color);
    padding-top: 120px;
    padding-bottom: 120px;
+   max-width: 1440px;
+   margin: 0 auto;
 }
 
 .visually-hidden {
@@ -246,6 +250,8 @@ margin-bottom: 8px;
 
 .projects {
    padding-bottom: 120px;
+   max-width: 1440px;
+   margin: 0 auto;
 }
 
 .projects-list{
@@ -368,6 +374,8 @@ color: var(--main-text-color);
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   max-width: 1440px;
+   margin: 0 auto;
 }
 
 .customers-title {
@@ -420,6 +428,8 @@ border-color: var(--select-color);
 background-color: var(--main-title-color);
 padding-top: 100px;
 padding-bottom: 100px;
+max-width: 1440px;
+margin: 0 auto;
 }
 
 .footer-info {
@@ -512,7 +522,10 @@ gap: 16px;
 
 
 /* --------------------------Portfolio-------------------------- */
-
+.portfolio {
+   max-width: 1440px;
+   margin: 0 auto;
+}
 /* ------------------------------Filter------------------------------ */
 .filter-btn {
 border: 1px solid #E7E9FC;
