@@ -277,6 +277,7 @@ justify-content: center;
 align-items: center;
 padding: 0px;
 gap: 8px;
+
 }
 .member-social-list {
 display: flex;
@@ -317,6 +318,8 @@ justify-content: center;
 align-items: center;
 padding: 0px 0px 32px;
 gap: 32px;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 
 width: 264px;
 height: 380px;
@@ -524,6 +527,7 @@ cursor: pointer;
 .filter-btn:is(:hover, :focus) {
 color: var(--accent-color);
 background-color: var(--select-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-list {
@@ -533,7 +537,7 @@ gap: 24px;
 margin-bottom: 72px;
 }
 
-/* ---------------------------Our products--------------------------- */
+/* ---------------------------Our products--------------------- */
 
 .card-text {
 display: flex;
@@ -544,6 +548,16 @@ padding: 32px 16px;
 gap: 8px;
 border: 1px solid #E7E9FC;
 }
+
+.card-wrap:is(:hover, :focus){
+width: 360px;
+height: 420px;
+left: 410px;
+top: 20px;
+border: 1px solid #F4F4FD;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 
 
 .products-list {
