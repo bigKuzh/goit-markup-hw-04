@@ -206,6 +206,22 @@ overflow: hidden;
    gap: 24px;
 }
 
+.about-list-bg {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 112px;
+background: var(--footer-white);
+border-radius: 4px;
+margin-bottom: 8px;
+}
+
+.about-icon {
+   width: 64px;
+   height: 64px;
+   /* fill: var(--main-title-color); */
+}
+
 .about-title {
    font-weight: 500;
    font-size: 20px;
@@ -397,6 +413,10 @@ padding-top: 100px;
 padding-bottom: 100px;
 }
 
+.footer-info {
+   margin-right: 120px;
+}
+
 .footer-logo-blue {
 color: var(--footer-white);
 }
@@ -420,6 +440,67 @@ letter-spacing: 0.02em;
 color: var(--footer-white);
 margin-top: 16px;
 }
+
+.footer-icon {
+   display: flex;
+   flex-direction: column;
+   justify-content: top;
+   align-items: left;
+width: 208px;
+height: 80px;
+left: 540px;
+top: 2988px;
+gap: 16px;
+
+}
+
+.foot-title {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #FFFFFF;
+}
+
+.footer-wrap {
+   display: flex;
+}
+.footer-social-list {
+   display: flex;
+   gap: 16px;
+}
+
+.footer-social-item {
+   width: 40px;
+   height: 40px;
+}
+
+.footer-social-link {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   background-color: var(--main-text-color);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-social-link:is(:hover, :focus) {
+   background-color: #31D0AA;
+   }
+   
+   .footer-social-link:is(:hover, :focus) > .footer-social-icon{
+      fill: var(--footer-white);
+      }
+   
+
+.footer-social-icon {
+   fill: var(--footer-white);
+}
+
+
 
 /* --------------------------Portfolio-------------------------- */
 
